@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+.env
+
+# Django
+db.sqlite3
+*.log
+media/
+
+# React
+node_modules/
+build/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Generated QR codes (for testing)
+*.png
+test_qr*.png

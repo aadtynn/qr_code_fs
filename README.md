@@ -31,7 +31,7 @@ cd qr-code-fullstack
 pip install qrcode[pil] pyzbar pillow
 
 # Run CLI tool
-python qr_tool.py
+python main.py
 ```
 
 ## 🗺️ Roadmap

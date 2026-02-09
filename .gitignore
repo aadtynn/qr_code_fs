@@ -28,3 +28,4 @@ build/
 # Generated QR codes (for testing)
 *.png
 test_qr*.png
+qrcodeproject/

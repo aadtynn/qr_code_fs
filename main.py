@@ -65,3 +65,16 @@ def main():
 
     while True:
         ch=int(input("Enter your choice : "))
+        if ch ==1:
+            string_to_qr()
+        elif ch==2:
+            qr_to_string()
+        elif ch ==3:
+            print("!!!Exiting the program, Goodbye.")
+            break
+        else:
+            print("!!! Invalid choice, pls enter valid choice (1, 2 or 3)")
+        
+
+if __name__ == "__main__":
+    main()

@@ -22,7 +22,7 @@ def string_to_qr():
     qr.add_data(text)
     qr.make(fit=True)
 
-    img =qr.make_image(fill_color="balck", back_color="white")
+    img =qr.make_image(fill_color="black", back_color="white")
 
     filepath =f"{filename}.png"
     img.save(filepath)

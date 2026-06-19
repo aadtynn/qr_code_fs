@@ -98,8 +98,10 @@ Enter filename to save the QR code(no extension needed) : my_qr
 - [x] CLI tool with QR generation
 - [x] CLI tool with QR decoding
 - [x] Error handling and input validation
-- [ ] Django REST API backend
-- [ ] React frontend with modern UI
+- [x] Flask REST API backend
+- [x] /api/generate endpoint
+- [x] /api/decode endpoint
+- [ ] React frontend
 - [ ] User authentication system
 - [ ] QR code history dashboard
 - [ ] Deploy to production

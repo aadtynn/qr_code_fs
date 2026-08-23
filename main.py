@@ -9,14 +9,14 @@ def string_to_qr():
         filename ="qr_code"
     
     filepath = generate_qr(text, filename)
-    print("!!! QR code genertaed and saved as", filepath, "!!!")
+    print("!!! QR code generated and saved as", filepath, "!!!")
 
 
 def qr_to_string():
     filename = input("Enter file-name of thr QR code tto decode(with extension) : ")
     try:
         text = decode_qr(filename)
-        print("QR decoded succesfully:")
+        print("QR decoded successfully:")
         print(f"Data : {text}")
     except FileNotFoundError as e:
         print(f"!!! Error: {e}")
